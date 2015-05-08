@@ -1,0 +1,509 @@
+/* Corpo color: #6db33f */
+/*.navtitle{border: 1px solid #0000ff;}*/
+html{
+   border-radius:3px;
+   color:#454545;
+   font-family:Myriad, LucidaGrande, Geneva, Arial, Helvetica;
+   font-size:1em;
+   margin:12px;
+   padding:0px;
+}
+
+
+span{
+   display:inline;
+}
+
+/*** Layout ******************************************************************/
+.master{
+   font-size:0.9em
+}
+
+/*** Borders - common classes ************************************************/
+.control,
+iframe,
+.tabs{
+   display:block;
+   border:1px dotted #dddddd;
+}
+button{
+   border:1px solid #666666;
+   background-color:white;
+}
+input{
+   border:1px solid #dddddd;
+}
+.control,
+button,
+input,
+iframe,
+.tabs,
+.tabs-contour{
+   border-radius:3px;
+   margin:2px;
+   padding:3px;
+}
+.menucontext{
+   border-radius:3px;
+   margin:0px;
+   padding:0px;
+}
+.menucontext-group{
+   padding-bottom:3px;
+   padding-top:3px;
+}
+
+.menucontext-group + .menucontext-group{
+      border-top:1px solid #aaaaaa;
+      padding-top: 6px;
+      margin-top: 6px;
+}
+.tab-heading{
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+   margin:2px;
+   padding:3px;
+}
+
+/*** Header ******************************************************************/
+header div{
+   display:table-row;
+}
+
+header img{
+   display:table-cell;
+   height:42px;
+   padding-right:10px;
+}
+
+header ol{
+   display:table-cell;
+   vertical-align:bottom;
+   list-style-type:none;
+   width:100%;
+   white-space:nowrap;
+   padding:0px;
+}
+
+header ol li{
+   background-color:#666666;
+   display:inline-block;
+   border-right:2px solid white;
+   margin-bottom:11px;
+}
+header ol:last-child{
+   width:100%;
+   overflow:hidden;
+}
+
+header ol li a{
+   color:white;
+   padding-bottom:0px;
+   padding-left:18px;
+   padding-right:18px;
+   padding-top:0px;
+   text-decoration:none;
+}
+
+header .active{
+   background-color:#6db33f;
+   margin:0px;
+   padding-bottom:1px;
+   padding-left:18px;
+   padding-right:18px;
+   padding-top:1px;
+}
+
+header a.nav.active:hover{
+   color:white;
+}
+
+/*** Footer ******************************************************************/
+footer{
+   clear:both;
+}
+/*** tabs ********************************************************************/
+.tab{
+   display:none;
+}
+.tab.active{
+   display:block;
+}
+/* Disable headings received, will move them to tab definition in .js */
+h1.tab-heading{
+   color:red;
+   display:none !important;
+}
+.tab-headings{
+   margin-left:6px;
+}
+.tabs-contour{
+   display:block;
+   background-color:#dddddd;
+   border:1px solid #454545;
+}
+
+span.tab-heading{
+   border-left:1px solid #454545;
+   border-right:1px solid #454545;
+   border-top:1px solid #454545;
+   display:inline-block;
+   margin-bottom:-3px;
+   margin-left:2px;
+   margin-right:1px;
+   margin-top:2px;
+   padding:3px;
+}
+span.tab-heading.active{
+   background-color:#dddddd;
+
+}
+/*** Forms *******************************************************************/
+input[type = checkbox]{
+   height:12px !important;
+   width:12px !important;
+}
+input[type = radio]{
+   height:14px !important;
+   width:14px !important;
+}
+input.direct-input{
+   width:96% !important;
+}
+form .line{
+   display:table;
+   width:100%;
+}
+form .inline-button{
+   min-width:12px;
+}
+form .inline-label{
+   min-width:12px;
+}
+form .inline-button-wrap{
+   display:table-cell;
+   text-align:right;
+}
+form .inline-label-wrap{
+   display:table-cell;
+   text-align:left;
+}
+form .input-wrap{
+   display:table-cell;
+   padding-right:12px;
+}
+form .select-wrap{
+   display:table-cell;
+   padding-right:2px;
+   text-align:left;
+}
+input,
+select{
+   width:100%;
+}
+textarea{
+   webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+   border:1px solid #dddddd;
+   width:100%;
+}
+
+/*** Controls ****************************************************************/
+.control{
+   font-size:0.9em;
+}
+
+/* Inline block makes background in map for .active work better */
+.control h1{
+   display:inline-block;
+   font-size:1em;
+   width:100%;
+   margin-bottom:0.25em;
+}
+/*** Content *****************************************************************/
+a{
+   color:#6db33f;
+   text-decoration:none;
+}
+
+dt{
+   margin-top:1.2em;
+}
+
+figure{
+   display:block;
+}
+img{
+   display:block;
+   max-width:150px;
+}
+
+h1{
+   font-size:1.2em;
+}
+
+.slideref.over,
+.navtitle.over,
+.slideset.over,
+.slideset-title.over,
+.title.over,
+.topichead.over
+{
+   border-bottom:2px dotted #aaaaaa;
+}
+.dragging{
+   color:#6db33f;
+}
+
+dt{
+   font-weight:bold;
+}
+
+.cmd{
+   font-weight:bold;
+}
+.uicontrol{
+   font-weight:bold;
+}
+.userinput{
+   font-style:italic
+}
+
+/*** context menus **********************************************************/
+.menucontext{
+   background-color:#eeeeee;
+   border:1px dotted #dddddd;
+   display:block;
+   list-style:none;
+   min-width:36px;
+   margin:0;
+   padding-bottom:9px;
+   padding-left:0px;
+   padding-right:0px;
+   padding-top:9px;
+   position:absolute;
+   text-align:left;
+   text-indent:0px;
+}
+.menucontext-item{
+   display:inline-block;
+   margin:0;
+   padding-bottom:0px;
+   padding-left:12px;
+   padding-top:0px;
+   padding-right:12px;
+   text-indent:0px;
+   width:100%;
+}
+
+.menucontext-item a{
+   color:#454545;
+}
+
+.dita-map-item:hover,
+.dita-topic-item:hover,
+.menucontext-item:hover,
+.menucontext-item a:hover,
+.nav:hover{
+   color:#6db33f;
+   cursor:pointer;
+}
+
+/*** Pop ups *****************************************************************/
+#pop-std-form{
+
+}
+
+.modalDialog{
+   position:fixed;
+   font-family:Arial, Helvetica, sans-serif;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   background:rgba(0, 0, 0, 0.8);
+   z-index:99999;
+   opacity:0;
+   -webkit-transition:opacity 400ms ease-in;
+   -moz-transition:opacity 400ms ease-in;
+   transition:opacity 400ms ease-in;
+   pointer-events:none;
+}
+
+.modalDialog > div{
+   width:400px;
+   position:relative;
+   margin:10% auto;
+   padding:5px 20px 13px 20px;
+   border-radius:10px;
+   background:#fff;
+   background:-moz-linear-gradient(#fff, #999);
+   background:-webkit-linear-gradient(#fff, #999);
+   background:-o-linear-gradient(#fff, #999);
+}
+
+.modalDialog:target{
+   opacity:1;
+   pointer-events:auto;
+}
+
+.modalClose{
+   background:#606061;
+   color:#FFFFFF;
+   line-height:25px;
+   position:absolute;
+   right:-12px;
+   text-align:center;
+   top:-10px;
+   width:24px;
+   text-decoration:none;
+   font-weight:bold;
+   -webkit-border-radius:12px;
+   -moz-border-radius:12px;
+   border-radius:12px;
+   -moz-box-shadow:1px 1px 3px #000;
+   -webkit-box-shadow:1px 1px 3px #000;
+   box-shadow:1px 1px 3px #000;
+}
+
+.modalClose:hover{
+   background:#6db33f;
+}
+
+/*** search-result and tree-view *********************************************/
+
+#area-presentation{
+   height:350px;
+   width:98%;
+   overflow:scroll;
+}
+
+/* Prevent text selection on double click for all non-IE browsers and IE10*/
+#area-navigation{
+   -webkit-user-select:none; /* webkit (safari, chrome) browsers */
+   -moz-user-select:none; /* mozilla browsers */
+   -khtml-user-select:none; /* webkit (konqueror) browsers */
+   -ms-user-select:none; /* IE10+ */
+}
+
+#area-navigation .dita-topic-item{
+   padding:1px;
+}
+
+#map-control{
+   height:650px;
+}
+/*.closed:before{
+   content:url('../images/openlist-icon.png');
+   display:inline-block;
+}
+
+.opened:before{
+   content:url('../images/closelist-icon.png');
+   display:inline-block;
+}
+
+.opened .slideset-title{
+   color:#cccccc;
+}
+
+.closed .topic-slides{
+   display:none;
+}
+.opened .topic-slides{
+   display:block;
+}*/
+
+.slideset-title{
+   color:#cccccc;
+}
+
+/* Indent for all tree levels here */
+.topichead,
+.slideref,
+.topicref{
+   margin-left:12px;
+}
+
+.topichead h1,
+.topichead{
+   padding-top:0px;
+   margin-top:0px;
+}
+
+.opened .slideref{
+   margin-left:6px;
+}
+
+.slideset,
+.topic-slides{
+   margin-top:2px;
+}
+
+.topic-slides{
+   border-left:1px solid #dddddd;
+   margin-left:6px;
+}
+
+
+.topicref,
+.slideref{
+   display:block;
+}
+
+
+#area-navigation .shortdesc{
+   background-color:#eeeeee;
+   position:absolute;
+   max-width:420px;
+   padding:9px;
+}
+
+.presentation .active,
+.result-table-std .active,
+tr .active{
+   background-color:#c4e0b2;
+}
+
+
+.result-table-std,
+.result-table-std tr,
+result-table-std td{
+   border:0px;
+   border-spacing:0px;
+   margin:0px;
+   padding:1px;
+   vertical-align:top;
+}
+
+
+#search-res:empty{
+   display:none;
+}
+#search-res,
+#res-new-topics,
+#res-new-maps{
+   background-color:#ffffff;
+}
+
+.result-table-std{
+   width:100%;
+}
+
+.search-result-item{
+   width:100%;
+}
+
+.search-result-item .dita-map-item,
+.search-result-item .dita-topic-item{
+   display:inline-block;
+   width:100%;
+}
+/* Slideset - item selection */
+table.form-items{
+   margin-left:12px;
+}
+table.form-items td{
+   padding-right:12px;
+}
