@@ -9,7 +9,6 @@ html{
    padding:0px;
 }
 
-
 span{
    display:inline;
 }
@@ -54,9 +53,9 @@ iframe,
 }
 
 .menucontext-group + .menucontext-group{
-      border-top:1px solid #aaaaaa;
-      padding-top: 6px;
-      margin-top: 6px;
+   border-top:1px solid #aaaaaa;
+   padding-top:6px;
+   margin-top:6px;
 }
 .tab-heading{
    border-top-left-radius:3px;
@@ -105,13 +104,13 @@ header ol li a{
    text-decoration:none;
 }
 
-header .active{
+header ol li.active{
    background-color:#6db33f;
-   margin:0px;
+   /*margin:0px;
    padding-bottom:1px;
    padding-left:18px;
    padding-right:18px;
-   padding-top:1px;
+   padding-top:1px;*/
 }
 
 header a.nav.active:hover{

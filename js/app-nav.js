@@ -12,7 +12,9 @@ $(document).ready(function () {
       });
       // Toggle active tab
       $('.nav').removeClass('active');
+      $('.nav-li').removeClass('active')
       $(this).toggleClass('active');
+      $(this).closest('.nav-li').toggleClass('active');
       
       event.preventDefault();
    });
